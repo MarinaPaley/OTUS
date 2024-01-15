@@ -19,6 +19,12 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="DML_trigger.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DML_trigger.sql</FullPath>
+        </FileNode>
         <FileNode Name="fGetAllInvoicesForCity.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
@@ -109,6 +115,12 @@
           <AssociatedConnUserName />
           <FullPath>Stored Procedure.sql</FullPath>
         </FileNode>
+        <FileNode Name="usp_CitiesCursor.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>usp_CitiesCursor.sql</FullPath>
+        </FileNode>
         <FileNode Name="uspGetInfoByName.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
@@ -126,12 +138,6 @@
           <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>uspGetPeople.sql</FullPath>
-        </FileNode>
-        <FileNode Name="uspStudent.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>uspStudent.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

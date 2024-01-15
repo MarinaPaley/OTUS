@@ -24,3 +24,21 @@ EXEC [Application].uspGetInfoByName @Name;
 
 DECLARE @Name NVARCHAR(50) = N'Eva Muirden';
 EXEC [Application].uspGetInfoCALLER @Name;
+
+--Получение существующих хранимы процедур
+SELECT name AS [Procedure_Name]
+     , SCHEMA_NAME(schema_id) AS [Schema_Name]
+     , type_desc
+     , create_date
+     , modify_date
+FROM sys.procedures;
+
+--Выходные параметры курсора
+DECLARE @MyCursor CURSOR;
+EXEC dbo.uspCitiesCursor @CityCursor = @MyCursor OUTPUT;
+WHILE (@@FETCH_STATUS = 0)
+BEGIN
+    FETCH NEXT FROM @MyCursor;
+END;
+CLOSE @MyCursor;
+DEALLOCATE @MyCursor;
