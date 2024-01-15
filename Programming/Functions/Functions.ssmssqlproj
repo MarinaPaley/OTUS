@@ -31,11 +31,23 @@
           <AssociatedConnUserName />
           <FullPath>fGetAllInvoicesForCityID.sql</FullPath>
         </FileNode>
+        <FileNode Name="fGetAllInvoicesForCityID_CROSS_APPLY.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fGetAllInvoicesForCityID_CROSS_APPLY.sql</FullPath>
+        </FileNode>
         <FileNode Name="fGetAveragePrice.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>fGetAveragePrice.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fGetCities.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fGetCities.sql</FullPath>
         </FileNode>
         <FileNode Name="fGetCityId.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
@@ -114,6 +126,12 @@
           <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>uspGetPeople.sql</FullPath>
+        </FileNode>
+        <FileNode Name="uspStudent.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>uspStudent.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

@@ -1,4 +1,5 @@
-﻿IF OBJECT_ID (N'dbo.fGetAllInvoicesForCityID', N'IF') IS NOT NULL
+﻿USE WideWorldImporters;
+IF OBJECT_ID (N'dbo.fGetAllInvoicesForCityID', N'IF') IS NOT NULL
     DROP FUNCTION dbo.fGetAllInvoicesForCityID;
 GO
 CREATE FUNCTION dbo.fGetAllInvoicesForCityID(@DeliveryCityID INT)
