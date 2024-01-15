@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Functions">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="DESKTOP-FEV6RUE:DESKTOP-FEV6RUE\Marina">
+          <Created>2024-01-14T20:04:43.5242298+03:00</Created>
+          <Type>SQL</Type>
+          <Server>DESKTOP-FEV6RUE</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="fGetAllInvoicesForCity.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fGetAllInvoicesForCity.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fGetAllInvoicesForCityID.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fGetAllInvoicesForCityID.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fGetAveragePrice.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fGetAveragePrice.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fGetCityId.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fGetCityId.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fGetCityIDByName.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fGetCityIDByName.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fGetMaxOrder.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fGetMaxOrder.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fGetProvinceId.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fGetProvinceId.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fGetSumOrder.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fGetSumOrder.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fMultiStatementExample.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fMultiStatementExample.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Inline table-valued function.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Inline table-valued function.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Multi-statement function.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Multi-statement function.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scalar function.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Scalar function.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
