@@ -91,6 +91,30 @@
           <AssociatedConnUserName />
           <FullPath>Scalar function.sql</FullPath>
         </FileNode>
+        <FileNode Name="Stored Procedure.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Stored Procedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="uspGetInfoByName.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>uspGetInfoByName.sql</FullPath>
+        </FileNode>
+        <FileNode Name="uspGetInfoCALLER.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>uspGetInfoCALLER.sql</FullPath>
+        </FileNode>
+        <FileNode Name="uspGetPeople.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>uspGetPeople.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
