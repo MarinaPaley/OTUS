@@ -1,23 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# SQL Server Management Studio Solution File, Format Version 18.00
+# SQL Server Management Studio Solution File, Format Version 20.00
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Functions", "Functions\Functions.ssmssqlproj", "{B3E79102-8122-48CA-86AF-BE765D6CE19A}"
 EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "CREATE", "..\..\..\SQL term work\DB-terms-work\SQL Server Scripts\CREATE\CREATE.ssmssqlproj", "{2EE21EDE-218D-4C2C-BB89-14281EC0F24F}"
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Triggers", "Triggers\Triggers.ssmssqlproj", "{037AEBDF-2EDC-4F25-B341-4C2A3A0F2CF4}"
 EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "INSERT", "..\..\..\SQL term work\DB-terms-work\SQL Server Scripts\INSERT\INSERT.ssmssqlproj", "{994A8473-B925-4F18-A23F-CE80B7FC503A}"
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Procedures", "Procedures\Procedures.ssmssqlproj", "{172EBED2-1A68-4D1F-8249-117C137E6224}"
 EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "VIEWS", "..\..\..\SQL term work\DB-terms-work\SQL Server Scripts\VIEWS\VIEWS.ssmssqlproj", "{23D07D47-957C-4340-9A56-7FA33EC18A92}"
-EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "FUNCTIONS", "..\..\..\SQL term work\DB-terms-work\SQL Server Scripts\FUNCTIONS\FUNCTIONS.ssmssqlproj", "{8A58D076-2831-49DD-A014-6ED32B2E3A86}"
-EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "PROC", "..\..\..\SQL term work\DB-terms-work\SQL Server Scripts\PROC\PROC.ssmssqlproj", "{62006C9B-E580-486E-85FB-A29173A35705}"
-EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SELECT", "..\..\..\SQL term work\DB-terms-work\SQL Server Scripts\SELECT\SELECT.ssmssqlproj", "{C702428A-E661-4A03-A174-8B44162F402D}"
-EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "TRIGGERS", "..\..\..\SQL term work\DB-terms-work\SQL Server Scripts\TRIGGERS\TRIGGERS.ssmssqlproj", "{3D608542-B169-4729-9C0E-DF748A8472EB}"
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Views", "Views\Views.ssmssqlproj", "{FD9D40C0-6191-4619-A8A7-6332506B5A34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +17,10 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B3E79102-8122-48CA-86AF-BE765D6CE19A}.Default|Default.ActiveCfg = Default
-		{D97544D0-DCFC-47A6-AEB3-71A037532CA2}.Default|Default.ActiveCfg = Default
-		{2EE21EDE-218D-4C2C-BB89-14281EC0F24F}.Default|Default.ActiveCfg = Default
-		{994A8473-B925-4F18-A23F-CE80B7FC503A}.Default|Default.ActiveCfg = Default
-		{23D07D47-957C-4340-9A56-7FA33EC18A92}.Default|Default.ActiveCfg = Default
-		{8A58D076-2831-49DD-A014-6ED32B2E3A86}.Default|Default.ActiveCfg = Default
-		{62006C9B-E580-486E-85FB-A29173A35705}.Default|Default.ActiveCfg = Default
-		{C702428A-E661-4A03-A174-8B44162F402D}.Default|Default.ActiveCfg = Default
-		{3D608542-B169-4729-9C0E-DF748A8472EB}.Default|Default.ActiveCfg = Default
+		{B80DFD9D-76EA-4762-BEB6-785FE1944BF6}.Default|Default.ActiveCfg = Default
+		{037AEBDF-2EDC-4F25-B341-4C2A3A0F2CF4}.Default|Default.ActiveCfg = Default
+		{172EBED2-1A68-4D1F-8249-117C137E6224}.Default|Default.ActiveCfg = Default
+		{FD9D40C0-6191-4619-A8A7-6332506B5A34}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,4 @@
-﻿USE WideWorldImporters;
+USE WideWorldImporters;
 IF OBJECT_ID(N'[Application].uspGetPeople', N'P') IS NOT NULL
 DROP PROCEDURE [Application].uspGetPeople;
 GO

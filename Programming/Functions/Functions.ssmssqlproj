@@ -3,14 +3,17 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="DESKTOP-FEV6RUE:DESKTOP-FEV6RUE\Marina">
-          <Created>2024-01-14T20:04:43.5242298+03:00</Created>
+        <ConnectionNode Name="DIABLOALEX666\SQLEXPRESS:DIABLOALEX666\79164">
+          <Created>2024-06-13T15:14:38.1875343+03:00</Created>
           <Type>SQL</Type>
-          <Server>DESKTOP-FEV6RUE</Server>
+          <Server>DIABLOALEX666\SQLEXPRESS</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
           <InitialDB />
           <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>True</EncryptionOption>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
@@ -19,125 +22,89 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="DML_trigger.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>DML_trigger.sql</FullPath>
-        </FileNode>
         <FileNode Name="fGetAllInvoicesForCity.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DIABLOALEX666\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DIABLOALEX666\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>fGetAllInvoicesForCity.sql</FullPath>
         </FileNode>
         <FileNode Name="fGetAllInvoicesForCityID.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DIABLOALEX666\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DIABLOALEX666\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>fGetAllInvoicesForCityID.sql</FullPath>
         </FileNode>
         <FileNode Name="fGetAllInvoicesForCityID_CROSS_APPLY.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DIABLOALEX666\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DIABLOALEX666\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>fGetAllInvoicesForCityID_CROSS_APPLY.sql</FullPath>
         </FileNode>
         <FileNode Name="fGetAveragePrice.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DIABLOALEX666\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DIABLOALEX666\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>fGetAveragePrice.sql</FullPath>
         </FileNode>
         <FileNode Name="fGetCities.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DIABLOALEX666\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DIABLOALEX666\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>fGetCities.sql</FullPath>
         </FileNode>
         <FileNode Name="fGetCityId.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DIABLOALEX666\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DIABLOALEX666\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>fGetCityId.sql</FullPath>
         </FileNode>
         <FileNode Name="fGetCityIDByName.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DIABLOALEX666\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DIABLOALEX666\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>fGetCityIDByName.sql</FullPath>
         </FileNode>
         <FileNode Name="fGetMaxOrder.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DIABLOALEX666\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DIABLOALEX666\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>fGetMaxOrder.sql</FullPath>
         </FileNode>
         <FileNode Name="fGetProvinceId.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DIABLOALEX666\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DIABLOALEX666\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>fGetProvinceId.sql</FullPath>
         </FileNode>
         <FileNode Name="fGetSumOrder.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DIABLOALEX666\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DIABLOALEX666\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>fGetSumOrder.sql</FullPath>
         </FileNode>
         <FileNode Name="fMultiStatementExample.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DIABLOALEX666\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DIABLOALEX666\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>fMultiStatementExample.sql</FullPath>
         </FileNode>
         <FileNode Name="Inline table-valued function.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DIABLOALEX666\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DIABLOALEX666\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Inline table-valued function.sql</FullPath>
         </FileNode>
         <FileNode Name="Multi-statement function.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DIABLOALEX666\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DIABLOALEX666\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Multi-statement function.sql</FullPath>
         </FileNode>
         <FileNode Name="Scalar function.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DIABLOALEX666\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DIABLOALEX666\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Scalar function.sql</FullPath>
-        </FileNode>
-        <FileNode Name="Stored Procedure.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>Stored Procedure.sql</FullPath>
-        </FileNode>
-        <FileNode Name="usp_CitiesCursor.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>usp_CitiesCursor.sql</FullPath>
-        </FileNode>
-        <FileNode Name="uspGetInfoByName.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>uspGetInfoByName.sql</FullPath>
-        </FileNode>
-        <FileNode Name="uspGetInfoCALLER.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>uspGetInfoCALLER.sql</FullPath>
-        </FileNode>
-        <FileNode Name="uspGetPeople.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-FEV6RUE:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-FEV6RUE</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>uspGetPeople.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

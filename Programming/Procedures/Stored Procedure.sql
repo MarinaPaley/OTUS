@@ -1,4 +1,4 @@
-﻿--Параметры
+--Параметры
 --QUOTED_IDENTIFIER ON (ANSI Standard)
 --SELECT "Hello world!" -- Error
 SELECT 'Hello world!' -- OK

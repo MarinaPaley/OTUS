@@ -1,4 +1,4 @@
-﻿CREATE TABLE TriggerTable([Name] VARCHAR(50));
+CREATE TABLE TriggerTable([Name] VARCHAR(50));
 CREATE TABLE TriggerTableLog ([Name] VARCHAR(50));
 
 CREATE TRIGGER TriggerTable_UPDATE
