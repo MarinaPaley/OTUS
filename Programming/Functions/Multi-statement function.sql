@@ -12,4 +12,5 @@ INNER JOIN Warehouse.Colors c
 WHERE Size LIKE @Size;
 
 --Напишем функцию для такого сценрия
+DECLARE @Size NVARCHAR(20) = N'XL';
 SELECT * FROM dbo.fMultyStatementExample(@Size);

@@ -11,11 +11,13 @@ RETURN
          , i.SalespersonPersonID [SalesPerson]
          , l.[Description]
     FROM Sales.Customers c
-    CROSS APPLY (SELECT *
-    FROM Sales.Invoices i
-    WHERE c.CustomerID = i.CustomerID) AS i
-    CROSS APPLY (SELECT *
-    FROM Sales.InvoiceLines l
-    WHERE l.InvoiceID = i.InvoiceID
-    AND DeliveryCityID = @DeliveryCityID) AS l
+    CROSS APPLY (
+		SELECT *
+		FROM Sales.Invoices i
+		WHERE c.CustomerID = i.CustomerID) AS i
+			CROSS APPLY (
+				SELECT *
+				FROM Sales.InvoiceLines l
+				WHERE l.InvoiceID = i.InvoiceID
+				AND DeliveryCityID = @DeliveryCityID) AS l
 );

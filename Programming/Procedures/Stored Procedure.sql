@@ -1,15 +1,10 @@
 --Параметры
---QUOTED_IDENTIFIER ON (ANSI Standard)
---SELECT "Hello world!" -- Error
-SELECT 'Hello world!' -- OK
-SELECT *
-FROM "Application".Cities; -- OK
 
 --NOCOUNT
 DECLARE @I INT
 SET NOCOUNT OFF -- ON/OFF
 SELECT * FROM Warehouse.Colors
-SET @I = @@ROWCOUNT --(36 rows affected)
+SET @I = @@ROWCOUNT --(41 rows affected)
 PRINT @I;
 
 EXECUTE [Application].uspGetPeople;

@@ -9,8 +9,6 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Triggers", "Triggers\Trigge
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Procedures", "Procedures\Procedures.ssmssqlproj", "{172EBED2-1A68-4D1F-8249-117C137E6224}"
 EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Views", "Views\Views.ssmssqlproj", "{FD9D40C0-6191-4619-A8A7-6332506B5A34}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -20,7 +18,6 @@ Global
 		{B80DFD9D-76EA-4762-BEB6-785FE1944BF6}.Default|Default.ActiveCfg = Default
 		{037AEBDF-2EDC-4F25-B341-4C2A3A0F2CF4}.Default|Default.ActiveCfg = Default
 		{172EBED2-1A68-4D1F-8249-117C137E6224}.Default|Default.ActiveCfg = Default
-		{FD9D40C0-6191-4619-A8A7-6332506B5A34}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
