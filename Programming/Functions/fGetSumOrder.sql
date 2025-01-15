@@ -1,4 +1,5 @@
-﻿IF OBJECT_ID (N'dbo.fGetSumOrder', N'FN') IS NOT NULL
+﻿USE WideWorldImporters;
+IF OBJECT_ID (N'dbo.fGetSumOrder', N'FN') IS NOT NULL
 DROP FUNCTION dbo.fGetSumOrder;
 GO
 CREATE FUNCTION dbo.fGetSumOrder(@OrderID INT)

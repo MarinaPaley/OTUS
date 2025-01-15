@@ -5,7 +5,7 @@ SELECT SUM(Quantity * UnitPrice) AS [Sum]
      , OrderID
 FROM Sales.OrderLines
 GROUP BY OrderID
-ORDER BY [Sum];
+ORDER BY [Sum] desc;
 
 --Найдем сумму (значение) максимального заказа:
 SELECT dbo.fGetMaxOrder() AS MaxOrder;

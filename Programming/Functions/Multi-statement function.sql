@@ -1,5 +1,6 @@
 ﻿--Multi-statement table-valued function
 --Показать данные по продуктам для размера Size, у которых цена выше средней цены
+USE WideWorldImporters;
 DECLARE @Size NVARCHAR(20) = N'XL';
 
 SELECT s.StockItemID

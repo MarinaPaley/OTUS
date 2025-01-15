@@ -1,10 +1,11 @@
+USE WideWorldImporters;
 --Параметры
 
 --NOCOUNT
 DECLARE @I INT
 SET NOCOUNT OFF -- ON/OFF
 SELECT * FROM Warehouse.Colors
-SET @I = @@ROWCOUNT --(41 rows affected)
+SET @I = @@ROWCOUNT --(37 rows affected)
 PRINT @I;
 
 EXECUTE [Application].uspGetPeople;
@@ -20,7 +21,7 @@ EXEC [Application].uspGetInfoByName @Name;
 DECLARE @Name NVARCHAR(50) = N'Eva Muirden';
 EXEC [Application].uspGetInfoCALLER @Name;
 
---Получение существующих хранимы процедур
+--Получение существующих хранимых процедур
 SELECT name AS [Procedure_Name]
      , SCHEMA_NAME(schema_id) AS [Schema_Name]
      , type_desc

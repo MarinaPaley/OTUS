@@ -9,15 +9,18 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Triggers", "Triggers\Trigge
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Procedures", "Procedures\Procedures.ssmssqlproj", "{172EBED2-1A68-4D1F-8249-117C137E6224}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Cursors", "Cursors\Cursors.ssmssqlproj", "{53D3C637-ABAD-4D9D-9719-5CE347CC86F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B3E79102-8122-48CA-86AF-BE765D6CE19A}.Default|Default.ActiveCfg = Default
-		{B80DFD9D-76EA-4762-BEB6-785FE1944BF6}.Default|Default.ActiveCfg = Default
 		{037AEBDF-2EDC-4F25-B341-4C2A3A0F2CF4}.Default|Default.ActiveCfg = Default
 		{172EBED2-1A68-4D1F-8249-117C137E6224}.Default|Default.ActiveCfg = Default
+		{7C506261-DBB6-4321-8446-853913FA110C}.Default|Default.ActiveCfg = Default
+		{53D3C637-ABAD-4D9D-9719-5CE347CC86F6}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
