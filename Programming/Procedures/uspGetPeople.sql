@@ -4,6 +4,6 @@ DROP PROCEDURE [Application].uspGetPeople;
 GO
 CREATE PROCEDURE [Application].uspGetPeople
 AS
-    SET NOCOUNT OFF;
+    SET NOCOUNT ON;
     SELECT *
     FROM [Application].People;

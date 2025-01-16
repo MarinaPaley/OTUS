@@ -1,3 +1,6 @@
+DROP TABLE TriggerTable;
+DROP TABLE TriggerTableLog;
+
 CREATE TABLE TriggerTable([Name] VARCHAR(50));
 CREATE TABLE TriggerTableLog ([Name] VARCHAR(50));
 

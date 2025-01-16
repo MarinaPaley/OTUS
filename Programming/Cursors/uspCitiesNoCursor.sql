@@ -21,7 +21,7 @@ DECLARE @ID INT = 0;
 DECLARE @name VARCHAR(50) = NULL;
 DECLARE @count INT = 0;
 DECLARE @current_number INT = 1;
-SELECT  @count =10 --COUNT(*) FROM [Application].Cities;
+SELECT  @count = 10 --COUNT(*) FROM [Application].Cities;
 
 WHILE   @current_number <= @count
 BEGIN

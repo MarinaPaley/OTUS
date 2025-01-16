@@ -11,13 +11,14 @@ ORDER BY [Sum] desc;
 SELECT dbo.fGetMaxOrder() AS MaxOrder;
 
 --Найдем сумму (значение) для выбранного заказа:
-DECLARE @OrderID INT = 4757;
+DECLARE @OrderID INT = 66991;
 SELECT dbo.fGetSumOrder(@OrderID) AS [SUM]
      , @OrderID AS [OrderID];
 
 -- Найдем ID, зная название провинции
 DECLARE @StateProvince NVARCHAR(50) = N'Arkansas';
 SELECT dbo.fGetProvinceId(@StateProvince) AS ProvinceID;
+SELECT dbo.fGetProvinceId('ddd') AS ProvinceID;
 
 --Найдем ID города, зная название города и название провинции
 
@@ -26,5 +27,5 @@ DECLARE @City NVARCHAR(50) = N'Bock';
 SELECT dbo.fGetCityId(@City, @Province) AS CityID;
 
 --Найти среднюю цену продуктов для заданного размера
-DECLARE @Size NVARCHAR(20) = N'XL';
+DECLARE @Size NVARCHAR(20) = N'L';
 SELECT dbo.fGetAveragePrice(@Size) AS AveragePrice;
